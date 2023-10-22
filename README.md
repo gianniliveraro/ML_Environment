@@ -17,6 +17,7 @@ Descrição: Scripts básicos para criar ambientes (conda) para uso de Machine L
                         ~/miniconda3/bin/conda init zsh
 
 - Crie um ambiente o acesse via:
+  
                         conda create --name ENV_NAME
                         conda activate MLEnv
 
