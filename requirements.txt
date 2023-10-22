@@ -8,11 +8,23 @@ keras
 matplotlib
 matplotlib-inline
 matplotlib-venn
-Pillow
+
+# For images
+Pillow 
 scikit-learn
 scikit-image
+
+# For plots
 scipy
 seaborn
 tensorflow
 torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-xgboost
+tensorflow
+xgboost # BDT
+imblearn #SMOTE
+collection #Counter
+importlib # to load customized libraries
+shutil #to copy files
+hep_ml #scikit-hep
+ipython
+joblib
