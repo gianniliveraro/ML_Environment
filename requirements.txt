@@ -1,0 +1,18 @@
+numpy
+pandas
+gdown
+jupyter
+jupyterlab
+ipywidgets
+keras
+matplotlib
+matplotlib-inline
+matplotlib-venn
+Pillow
+scikit-learn
+scikit-image
+scipy
+seaborn
+tensorflow
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+xgboost
