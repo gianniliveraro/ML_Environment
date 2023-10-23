@@ -28,3 +28,7 @@ shutil #to copy files
 hep_ml #scikit-hep
 ipython
 joblib
+
+# Root with Numpy and pandas
+uproot
+zstandard
