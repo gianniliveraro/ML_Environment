@@ -18,7 +18,9 @@ scikit-image
 scipy
 seaborn
 tensorflow
-torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+torch --index-url https://download.pytorch.org/whl/cu118
+torchvision --index-url https://download.pytorch.org/whl/cu118
+torchaudio --index-url https://download.pytorch.org/whl/cu118
 tensorflow
 xgboost # BDT
 imblearn #SMOTE
