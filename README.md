@@ -1,6 +1,8 @@
 # ML_Environment
 Autor: Gianni S. S. Liveraro
+
 Data: 22-10-2023
+
 Descrição: Scripts básicos para criar ambientes (conda) para uso de Machine Learning
 
 
