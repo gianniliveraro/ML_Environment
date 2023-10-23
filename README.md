@@ -8,7 +8,7 @@ Descrição: Scripts básicos para criar ambientes (conda) para uso de Machine L
 
 # Instruções
 - Clone este repositório
-- Cheque a versão do python
+  
 - Instale a versão mais recente do miniconda com os seguintes comandos:
                         
                         mkdir -p ~/miniconda3
@@ -18,12 +18,13 @@ Descrição: Scripts básicos para criar ambientes (conda) para uso de Machine L
                         ~/miniconda3/bin/conda init bash
                         ~/miniconda3/bin/conda init zsh
 
-- Crie um ambiente o acesse via:
+- Crie um ambiente e o acesse via:
   
                         conda create --name ENV_NAME
                         conda activate MLEnv
 
 - Instale as dependências básicas:
+  
                         pip install -r requirements.txt
 
 - Caso o pip não esteja instalado no ambiente:
