@@ -22,6 +22,10 @@ Descrição: Scripts básicos para criar ambientes (conda) para uso de Machine L
                         conda activate MLEnv
 
 - Instale as dependências básicas:
-                        pip install requirements.txt
+                        pip install -r requirements.txt
+
+- Caso o pip não esteja instalado no ambiente:
+  
+                        conda install pip
 
 - Feito!
