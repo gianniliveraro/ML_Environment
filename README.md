@@ -17,6 +17,7 @@ Descrição: Scripts básicos para criar ambientes (conda) para uso de Machine L
                         rm -rf ~/miniconda3/miniconda.sh
                         ~/miniconda3/bin/conda init bash
                         ~/miniconda3/bin/conda init zsh
+                        source ~/miniconda3/etc/profile.d/conda.sh
 
 - Crie um ambiente e o acesse via:
   
