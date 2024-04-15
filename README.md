@@ -1,35 +1,27 @@
 # ML_Environment
-Autor: Gianni S. S. Liveraro
+Author: Gianni S. S. Liveraro
 
-Data: 22-10-2023
+Date: 22-10-2023
 
-Descrição: Scripts básicos para criar ambientes (conda) para uso de Machine Learning
+Descriptions: Basic scripts to create (conda) environments for Machine Learning Analysis
 
 
-# Instruções
-- Clone este repositório
-  
-- Instale a versão mais recente do miniconda com os seguintes comandos:
-                        
-                        mkdir -p ~/miniconda3
-                        wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-                        bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-                        rm -rf ~/miniconda3/miniconda.sh
-                        ~/miniconda3/bin/conda init bash
-                        ~/miniconda3/bin/conda init zsh
-                        source ~/miniconda3/etc/profile.d/conda.sh
+# INSTRUCTIONS
+1. Clone this repository in a local machine:
+```c
+git clone https://github.com/gianniliveraro/ML_Environment.git
+``` 
+2. Navigate to the top level of the repository and run:
+```c   
+./src/install_mlenv.sh
+``` 
+this creates an environment (called "ML_Env") with miniconda to run python codes for ML analysis. 
 
-- Crie um ambiente e o acesse via:
-  
-                        conda create --name ENV_NAME
-                        conda activate MLEnv
+3. Log out from your account and log in again. 
 
-- Instale as dependências básicas:
-  
-                        pip install -r requirements.txt
+4. Activate the ML_Env environment with:
+```c
+     conda activate ML_Env
+``` 
 
-- Caso o pip não esteja instalado no ambiente:
-  
-                        conda install pip
-
-- Feito!
+- Done!
