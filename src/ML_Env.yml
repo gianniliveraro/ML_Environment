@@ -24,6 +24,12 @@ dependencies:
   - wheel=0.41.2=py312h06a4308_0
   - xz=5.4.6=h5eee18b_0
   - zlib=1.2.13=h5eee18b_0
+  # ROOT
+  - root=6.20.6
+  - root-binaries=6.20.6
+  - root-dependencies=6.20.6
+  - root_base=6.20.6
+
   - pip:
       - absl-py==2.1.0
       - alembic==1.13.1
